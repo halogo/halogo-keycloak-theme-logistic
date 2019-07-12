@@ -1,0 +1,1 @@
+# halogo-keycloak-theme-logistic
