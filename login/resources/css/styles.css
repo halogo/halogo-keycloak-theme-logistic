@@ -1165,6 +1165,7 @@ body {
   line-height: 1.66666667;
   color: #363636;
   background-color: #fff;
+  font-size: 200%;
 }
 input,
 button,
@@ -3515,6 +3516,7 @@ fieldset[disabled] .btn-link:focus {
   font-size: 14px;
   line-height: 1.3333333;
   border-radius: 1px;
+  font-size: 200%;
 }
 .btn-sm,
 .btn-group-sm > .btn {
@@ -10792,6 +10794,8 @@ ul#kc-totp-supported-apps {
   padding-right: 20px !important;
   font-size: 16px;
   line-height: 1.5;
+  font-size: 200%;
+  height: 52px;
 }
 
 .zocial,
