@@ -10,13 +10,14 @@
     </#if>
     <#elseif section = "form">
     <div id="kc-info-message">
-        <p class="instruction"><#if requiredActions??>:</p>
-        <#list requiredActions>
-            <ul class="list list-bullet">
-                <#items as reqActionItem><li>${msg("requiredAction.${reqActionItem}")}</li></#items>
-            </ul>
-        </#list>
-        <#else></p></#if>
+        <p class="instruction"></p>
+        <#if requiredActions??>
+            <#list requiredActions>
+                <ul class="list list-bullet">
+                    <#items as reqActionItem><li>${msg("requiredAction.${reqActionItem}")}</li></#items>
+                </ul>
+            </#list>
+        </#if>
 
         <#if skipLink??>
         <#else>
