@@ -10,7 +10,7 @@
     </#if>
     <#elseif section = "form">
     <div id="kc-info-message">
-        <p class="instruction">${message.summary}<#if requiredActions??>:</p>
+        <p class="instruction"><#if requiredActions??>:</p>
         <#list requiredActions>
             <ul class="list list-bullet">
                 <#items as reqActionItem><li>${msg("requiredAction.${reqActionItem}")}</li></#items>
